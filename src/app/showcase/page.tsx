@@ -190,7 +190,7 @@ export default function ShowcasePage() {
     return matchSearch && (!breedFilter || h.breed === breedFilter);
   });
 
-  const breeds = [...new Set(horses.map((h) => h.breed))];
+  const breeds = Array.from(new Set(horses.map((h) => h.breed)));
 
   return (
     <div style={{ background: "#0a0a0a", minHeight: "100vh" }}>
