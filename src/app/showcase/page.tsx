@@ -3,7 +3,7 @@
 import { useState } from "react";
 import {
   Card, Row, Col, Tag, Typography, Modal, Tabs,
-  Button, Input, Select, Space, Image, Divider,
+  Button, Input, Select, Space, Image, Divider, Badge,
 } from "antd";
 import {
   TrophyOutlined, StarOutlined, SearchOutlined,
